@@ -164,255 +164,84 @@ const translations: Translations = {
           { name: "GitLab", level: 3 }
         ]
       }
-    ],
-    experience: [
-      // --- EXPERIENCIAS FREELANCE ---
-      {
-        company: "Freelance",
-        position: "Desarrollador Web Freelance",
-        period: "Actual",
-        description: [
-          "Desarrollo de sitios web",
-          "Integración con alojamiento y despliegue",
-          "Diseño de interfaces responsivas"
-        ]
-      },
-      {
-        company: "Freelance / Contract",
-        position: "Soporte TI Freelance",
-        period: "2023",
-        description: [
-          "Soporte y mantenimiento de equipos y redes",
-          "Consultoría en infraestructura TI para PYMES",
-          "Implementación de soluciones de respaldo y seguridad"
-        ]
-      },
-     
-      // --- EXPERIENCIAS DE EMPRESAS ---
-      {
-        company: "Sistemas Expertos e Ingeniería de Software Ltda.",
-        position: "Desarrollador PHP",
-        period: "2025 - 2026",
-        description: [
-          "Participación en desarrollo y mantenimiento del sistema REP",
-          "Mejoras en frontend (UI) y backend con PHP",
-          "Optimización de lógica de negocio y procesamiento de datos"
-        ]
-      },
-      {
-        company: "Bupa Chile S.A.",
-        position: "Especialista en Gestión y Servicios de TI",
-        period: "2024 - 2025",
-        description: [
-          "Documentación de procesos",
-          "Gestión y optimización de inventario",
-          "Seguimiento en políticas de seguridad SCIS en Windows 10",
-          "Reportes de resultados de inventario"
-        ]
-      },
-      {
-        company: "Sky Systems Inc, by Deel",
-        position: "Especialista Senior en TI",
-        period: "2022 - 2023",
-        description: [
-          "Gestión de SIP Trunk, CUCM y configuración de servidores",
-          "Administración de respaldos y seguridad de usuarios"
-        ]
-      },
-      {
-        company: "Infosys Chile",
-        position: "Especialista en Tecnologías de la Información",
-        period: "2016 - 2022",
-        description: [
-          "Soporte a +300 usuarios y gestión de hardware",
-          "Control de sala de servidores y red inalámbrica"
-        ]
-      },
-      {
-        company: "Unisys",
-        position: "Ingeniero de Clientes II",
-        period: "2011 - 2016",
-        description: [
-          "Soporte TI para Novartis Chile",
-          "Gestión de Active Directory y Cisco IPT",
-          "Gestión de MS Server 2008 y Active Directory",
-          "Documentación de procedimientos y configuración de hardware"
-        ]
-      }
+    ],experience: [
+  // --- EXPERIENCIAS FREELANCE ---
+  {
+    company: "Freelance",
+    position: "Desarrollador Web Freelance",
+    period: "Actual",
+    description: [
+      "Desarrollo de sitios web",
+      "Integración con alojamiento y despliegue",
+      "Diseño de interfaces responsivas"
     ]
   },
-  en: {
-    name: "Juan Lienqueo",
-    title: '"Bridging Technology Uses"',
-    subtitle: "Computer Engineer",
-    education: "Computer Engineering",
-    institution: "Instituto Profesional de Providencia IPP",
-    summary: "Hello, I’m an experienced Computer Engineer with a strong background, primarily in the healthcare sector. My expertise combines IT support, networking, and frontend development, with a strong focus on customer service, continuous improvement, automation, user experience, and information security.",
-    certifications: [
-      {
-        name: "Cybersecurity Technology Specialist",
-        issuer: "Digital Security Institute",
-        year: "2026",
-        icon: "🛡️"
-      }
-    ],
-    contact: {
-      location: "Santiago, Chile",
-      phone: "+56 9 73725900",
-      email: "juan.lienqueo@outlook.com"
-    },
-    technicalProfile: {
-      operations: ["MS Office", "Lansweeper", "MS Intune", "Citrix", "Active Directory", "Windows/Linux", "ITIL"],
-      network: ["M365/O365", "Google Workspace", "CUCM/SIP", "VPN/WiFi", "Phishing", "Backups"],
-      development: ["React", "JavaScript", "TypeScript", "HTML/CSS", "PHP", "SQL Server", "Python"]
-    },
-    languages: [
-      { name: "Spanish", level: "Native" },
-      { name: "English", level: "B1-Intermediate" },
-      { name: "Portuguese", level: "Basic" }
-    ],
-    softSkills: [
-      "Root cause analysis and problem solving",
-      "Onsite and remote support",
-      "Technical documentation and procedures",
-      "Service continuity and customer focus"
-    ],
-    keyKnowledge: [
-      {
-        category: "PLATFORMS & SYSTEMS",
-        skills: [
-          { name: "Microsoft 365", level: 5 },
-          { name: "SharePoint", level: 4 },
-          { name: "Windows Server", level: 4 },
-          { name: "Linux", level: 4 },
-          { name: "Active Directory", level: 5 }
-        ]
-      },
-      {
-        category: "NETWORKING & SECURITY",
-        skills: [
-          { name: "TCP/IP", level: 4 },
-          { name: "DHCP", level: 4 },
-          { name: "VPN", level: 4 },
-          { name: "Cybersecurity", level: 4 },
-          { name: "Backup & Recovery", level: 5 },
-          { name: "Data Migration", level: 4 }
-        ]
-      },
-      {
-        category: "ITSM & MANAGEMENT",
-        skills: [
-          { name: "ITIL", level: 4 },
-          { name: "ServiceNow", level: 4 },
-          { name: "Jira", level: 4 },
-          { name: "Remedy On Demand", level: 4 }
-        ]
-      },
-      {
-        category: "DATA & BUSINESS INTELLIGENCE",
-        skills: [
-          { name: "Power BI", level: 4 },
-          { name: "DAX", level: 3 },
-          { name: "Power Query", level: 3 },
-          { name: "SQL", level: 4 },
-          { name: "PostgreSQL", level: 4 },
-          { name: "Data Modeling", level: 4 }
-        ]
-      },
-      {
-        category: "APIs & DEVELOPMENT",
-        skills: [
-          { name: "C#", level: 3 },
-          { name: "Python", level: 3 },
-          { name: "PHP", level: 4 },
-          { name: "JavaScript", level: 4 },
-          { name: "React", level: 4 },
-          { name: "REST API", level: 3 },
-          { name: "JSON", level: 3 }
-        ]
-      },
-      {
-        category: "VERSION CONTROL",
-        skills: [
-          { name: "GitHub", level: 3 },
-          { name: "GitLab", level: 3 }
-        ]
-      }
-    ],
-    experience: [
-      // --- FREELANCE EXPERIENCES ---
-      {
-        company: "Freelance",
-        position: "Freelance Web Developer",
-        period: "Present",
-        description: [
-          "Website development",
-          "Hosting integration and deployment",
-          "Responsive interface design"
-        ]
-      },
-      {
-        company: "Freelance / Contractor",
-        position: "Freelance IT Support Specialist",
-        period: "2024-2025",
-        description: [
-          "Equipment and network support and maintenance",
-          "IT infrastructure consulting for SMEs",
-          "Implementation of backup and security solutions"
-        ]
-      },
-      // --- COMPANY EXPERIENCES ---
-      {
-        company: "Sistemas Expertos e Ingeniería de Software Ltda.",
-        position: "PHP Developer",
-        period: "2025 - 2026",
-        description: [
-          "Participation in the development and maintenance of the REP system",
-          "Frontend (UI) and backend improvements using PHP",
-          "Optimization of business logic and data processing"
-        ]
-      },
-      {
-        company: "Bupa Chile S.A.",
-        position: "IT Management & Services Specialist",
-        period: "2024 - 2025",
-        description: [
-          "Process documentation",
-          "Inventory management and optimization",
-          "Monitoring SCIS security policies on Windows 10",
-          "Inventory results reporting"
-        ]
-      },
-      {
-        company: "Sky Systems Inc, by Deel",
-        position: "Senior IT Specialist",
-        period: "2022 - 2023",
-        description: [
-          "SIP Trunk and CUCM management, server configuration",
-          "Backup administration and user security management"
-        ]
-      },
-      {
-        company: "Infosys Chile",
-        position: "IT Services Specialist",
-        period: "2016 - 2022",
-        description: [
-          "Support for +300 users and hardware management",
-          "Server room and wireless network control"
-        ]
-      },
-      {
-        company: "Unisys",
-        position: "Client Engineer II",
-        period: "2011 - 2016",
-        description: [
-          "IT support for Novartis Chile",
-          "Active Directory and Cisco IPT management",
-          "MS Server 2008 and Active Directory management",
-          "Procedure documentation and hardware configuration"
-        ]
-      }
+  {
+    company: "Freelance / Contract",
+    position: "Soporte TI Freelance",
+    period: "2023",
+    description: [
+      "Soporte y mantenimiento de equipos y redes",
+      "Consultoría en infraestructura TI para PYMES",
+      "Implementación de soluciones de respaldo y seguridad"
     ]
+  },
+ 
+  // --- EXPERIENCIAS DE EMPRESAS ---
+  {
+    company: "Sistemas Expertos e Ingeniería de Software Ltda.",
+    position: "Desarrollador PHP",
+    period: "2025 - 2026",
+    description: [
+      "Participación en desarrollo y mantenimiento del sistema REP",
+      "Mejoras en frontend (UI) y backend con PHP",
+      "Optimización de lógica de negocio y procesamiento de datos"
+    ]
+  },
+  {
+    company: "Bupa Chile S.A.",
+    position: "Especialista en Gestión y Servicios de TI",
+    period: "2024 - 2025",
+    description: [
+      "Documentación de procesos",
+      "Gestión y optimización de inventario",
+      "Seguimiento en políticas de seguridad SCIS en Windows 10",
+      "Reportes de resultados de inventario"
+    ]
+  },
+  {
+    company: "Sky Systems Inc, by Deel",
+    position: "Local IT Senior",
+    period: "2022 - 2023",
+    description: [
+      "Encargado de la resolución de incidentes y requerimientos de soporte avanzado, garantizando la continuidad operativa",
+      "Administración y configuración de SIP Trunk, CUCM y equipos de telecomunicaciones, asegurando la disponibilidad del servicio telefónico",
+      "Gestión integral de la librería de respaldos, incluyendo políticas de retención y recuperación ante desastres",
+      "Soporte especializado para salas de auditorio y sistemas de videoconferencia, asegurando el correcto funcionamiento en reuniones críticas",
+      "Responsable del ciclo de renovación de hardware, equipos móviles y servicios BAM, optimizando los recursos tecnológicos"
+    ]
+  },
+  {
+    company: "Infosys Chile",
+    position: "Especialista en Tecnologías de la Información",
+    period: "2016 - 2022",
+    description: [
+      "Soporte a +300 usuarios y gestión de hardware",
+      "Control de sala de servidores y red inalámbrica"
+    ]
+  },
+  {
+    company: "Unisys",
+    position: "Ingeniero de Clientes II",
+    period: "2011 - 2016",
+    description: [
+      "Soporte TI para Novartis Chile",
+      "Gestión de Active Directory y Cisco IPT",
+      "Gestión de MS Server 2008 y Active Directory",
+      "Documentación de procedimientos y configuración de hardware"
+    ]
+  }
+]
   }
 };
 

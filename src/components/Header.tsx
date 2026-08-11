@@ -252,10 +252,6 @@ const Header = () => {
                       {language === 'es' ? 'Ir a la Web' : 'Go to Web'}
                     </span>
                     <div className="flex items-center gap-1.5 mt-1.5 print:flex">
-                      <FaUniversity className="text-white/60 text-[10px] print:text-[7px]" />
-                      <span className="text-[7px] text-white/50 print:text-[5px]">
-                        {language === 'es' ? 'Instituto Profesional de Providencia' : 'Professional Institute of Providence'}
-                      </span>
                     </div>
                   </div>
                   
