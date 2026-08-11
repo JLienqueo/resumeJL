@@ -1,0 +1,314 @@
+/* ============================================ */
+/* ESTILOS PARA IMPRESIÓN - CV EN UNA PÁGINA A4 */
+/* ============================================ */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+    color-adjust: exact !important;
+  }
+  
+  body {
+    background: white !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  .cv-page {
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    padding: 0.5in !important;
+    width: 100% !important;
+    min-height: 100vh !important;
+  }
+  
+  .dark .bg-gray-800 {
+    background-color: white !important;
+  }
+  .dark .text-white {
+    color: black !important;
+  }
+  .dark .text-gray-300 {
+    color: #333 !important;
+  }
+  .dark .text-gray-400 {
+    color: #666 !important;
+  }
+  .dark .border-gray-600 {
+    border-color: #333 !important;
+  }
+  
+  .bg-blue-600 {
+    background-color: #0a66c2 !important;
+  }
+  .bg-gray-900 {
+    background-color: #1a1a1a !important;
+  }
+  
+  .text-xs {
+    font-size: 10px !important;
+  }
+  .text-[10px] {
+    font-size: 9px !important;
+  }
+  .text-[9px] {
+    font-size: 8px !important;
+  }
+  
+  .modal {
+    display: none !important;
+  }
+  .modal-toggle {
+    display: none !important;
+  }
+}
+
+/* ============================================ */
+/* ESTILOS BASE */
+/* ============================================ */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #f8f9fa !important;
+  color: #1a1a2e !important;
+}
+
+/* Estilos para tarjetas */
+.card {
+  background-color: #ffffff !important;
+  border: 1px solid #e5e7eb !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) !important;
+}
+
+.card-body {
+  background-color: #ffffff !important;
+}
+
+/* Badges */
+.badge-soft {
+  background-color: #e8f0fe !important;
+  border: 1px solid #d2e3fc !important;
+  color: #1a56db !important;
+}
+
+.badge-soft.badge-primary {
+  background-color: #e8f0fe !important;
+  border-color: #d2e3fc !important;
+  color: #1a56db !important;
+}
+
+.badge-soft.badge-secondary {
+  background-color: #f3e8ff !important;
+  border-color: #d8b4fe !important;
+  color: #6b21a8 !important;
+}
+
+.badge-soft.badge-info {
+  background-color: #e0f2fe !important;
+  border-color: #bae6fd !important;
+  color: #0369a1 !important;
+}
+
+.badge-soft.badge-success {
+  background-color: #dcfce7 !important;
+  border-color: #bbf7d0 !important;
+  color: #15803d !important;
+}
+
+.badge-soft.badge-warning {
+  background-color: #fef3c7 !important;
+  border-color: #fde68a !important;
+  color: #92400e !important;
+}
+
+.badge-soft.badge-accent {
+  background-color: #fce7f3 !important;
+  border-color: #f9a8d4 !important;
+  color: #9d174d !important;
+}
+
+.badge-primary {
+  background-color: #2563eb !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+.badge-secondary {
+  background-color: #7c3aed !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+/* Textos */
+.text-gray-700 { color: #374151 !important; }
+.text-gray-600 { color: #4b5563 !important; }
+.text-gray-500 { color: #6b7280 !important; }
+.text-gray-400 { color: #9ca3af !important; }
+
+.divider {
+  background-color: #e5e7eb !important;
+}
+
+/* Scroll */
+.max-h-\[400px\]::-webkit-scrollbar,
+.max-h-\[450px\]::-webkit-scrollbar,
+.max-h-\[500px\]::-webkit-scrollbar {
+  width: 4px;
+}
+
+.max-h-\[400px\]::-webkit-scrollbar-track,
+.max-h-\[450px\]::-webkit-scrollbar-track,
+.max-h-\[500px\]::-webkit-scrollbar-track {
+  background: #f3f4f6;
+}
+
+.max-h-\[400px\]::-webkit-scrollbar-thumb,
+.max-h-\[450px\]::-webkit-scrollbar-thumb,
+.max-h-\[500px\]::-webkit-scrollbar-thumb {
+  background: #d1d5db;
+  border-radius: 2px;
+}
+
+.max-h-\[400px\]::-webkit-scrollbar-thumb:hover,
+.max-h-\[450px\]::-webkit-scrollbar-thumb:hover,
+.max-h-\[500px\]::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
+
+/* ============================================ */
+/* POPOVER MODAL - ESTILOS PRINCIPALES */
+/* ============================================ */
+
+.popover-modal {
+  position: fixed !important;
+  inset: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: 0 !important;
+  padding: 1rem !important;
+  border: none !important;
+  background: transparent !important;
+  width: 100vw !important;
+  height: 100vh !important;
+  max-width: 100vw !important;
+  max-height: 100vh !important;
+  opacity: 0 !important;
+  transition: opacity 0.3s ease !important;
+  pointer-events: none !important;
+  z-index: 9999 !important;
+}
+
+.popover-modal:popover-open {
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.popover-modal::backdrop {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  backdrop-filter: blur(8px) !important;
+  -webkit-backdrop-filter: blur(8px) !important;
+}
+
+.popover-box {
+  max-width: 32rem !important;
+  width: 100% !important;
+  padding: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  transform: scale(0.9) translateY(20px) !important;
+  transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) !important;
+  position: relative !important;
+  z-index: 10 !important;
+}
+
+.popover-modal:popover-open .popover-box {
+  transform: scale(1) translateY(0) !important;
+}
+
+/* Backdrop para cerrar al hacer clic fuera */
+.popover-modal .modal-backdrop {
+  position: fixed !important;
+  inset: 0 !important;
+  cursor: pointer !important;
+  background: transparent !important;
+  z-index: 0 !important;
+}
+
+.popover-modal .modal-backdrop button {
+  width: 100% !important;
+  height: 100% !important;
+  background: transparent !important;
+  border: none !important;
+  cursor: pointer !important;
+}
+
+/* ============================================ */
+/* EFECTO 3D */
+/* ============================================ */
+
+.hover-3d {
+  perspective: 1000px;
+  transform-style: preserve-3d;
+  transition: transform 0.3s ease;
+  display: block;
+  text-decoration: none;
+  position: relative;
+}
+
+.hover-3d:hover {
+  transform: rotateX(2deg) rotateY(4deg) scale(1.02);
+}
+
+.hover-3d .card {
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+}
+
+.hover-3d:hover .card {
+  transform: translateZ(20px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.2);
+}
+
+/* 8 divs para capas de profundidad */
+.hover-3d > div:not(.card):not(.card-body):not(.flex):not(.space-y-3):not(.space-y-2):not(.mt-6):not(.flex-wrap):not(.mt-3):not(.p-3):not(.rounded-lg) {
+  position: absolute !important;
+  width: 100% !important;
+  height: 100% !important;
+  top: 0 !important;
+  left: 0 !important;
+  pointer-events: none !important;
+  background: transparent !important;
+  transition: transform 0.3s ease !important;
+  opacity: 0 !important;
+}
+
+.hover-3d:hover > div:nth-child(2) { transform: translateZ(-10px) !important; opacity: 0.05 !important; background: #000 !important; }
+.hover-3d:hover > div:nth-child(3) { transform: translateZ(-20px) !important; opacity: 0.04 !important; background: #000 !important; }
+.hover-3d:hover > div:nth-child(4) { transform: translateZ(-30px) !important; opacity: 0.03 !important; background: #000 !important; }
+.hover-3d:hover > div:nth-child(5) { transform: translateZ(-40px) !important; opacity: 0.025 !important; background: #000 !important; }
+.hover-3d:hover > div:nth-child(6) { transform: translateZ(-50px) !important; opacity: 0.02 !important; background: #000 !important; }
+.hover-3d:hover > div:nth-child(7) { transform: translateZ(-60px) !important; opacity: 0.015 !important; background: #000 !important; }
+.hover-3d:hover > div:nth-child(8) { transform: translateZ(-70px) !important; opacity: 0.01 !important; background: #000 !important; }
+.hover-3d:hover > div:nth-child(9) { transform: translateZ(-80px) !important; opacity: 0.005 !important; background: #000 !important; }
+
+/* ============================================ */
+/* RESPONSIVE */
+/* ============================================ */
+@media (max-width: 640px) {
+  .popover-box {
+    max-width: 95% !important;
+    padding: 0 !important;
+  }
+  
+  .popover-modal {
+    padding: 0.5rem !important;
+  }
+}

@@ -1,0 +1,47 @@
+resumeJL/
+├── public/
+│   ├── data/
+│   │   ├── en.json          # Datos en inglés
+│   │   └── es.json          # Datos en español
+│   ├── images/
+│   │   └── JuanLienqueo.jpg # Tu foto de perfil
+│   ├── favicon.svg
+│   └── robots.txt
+├── src/
+│   ├── components/
+│   │   ├── ui/              # Componentes shadcn/ui (ya existentes)
+│   │   │   ├── button.tsx
+│   │   │   ├── ... (todos los componentes shadcn)
+│   │   ├── CalendlyButton.tsx
+│   │   ├── DarkModeToggle.tsx
+│   │   ├── ExperienceCard.tsx
+│   │   ├── LanguageToggle.tsx
+│   │   ├── MainContent.tsx
+│   │   ├── PrintButton.tsx  # NUEVO: Botón de impresión
+│   │   └── Sidebar.tsx
+│   ├── contexts/
+│   │   └── LanguageContext.tsx
+│   ├── hooks/
+│   │   ├── use-mobile.tsx
+│   │   └── use-toast.ts
+│   ├── pages/
+│   │   └── Index.tsx        # MODIFICADO: Nueva estructura de una página
+│   ├── lib/
+│   │   └── utils.ts
+│   ├── App.css              # MODIFICADO: Agregar estilos de impresión
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .gitignore
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package.json             # MODIFICADO: Agregar lucide-react
+├── pnpm-lock.yaml           # MODIFICADO: Actualizado con nuevas dependencias
+├── postcss.config.js
+├── tailwind.config.ts       # MODIFICADO: Agregar soporte print
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
