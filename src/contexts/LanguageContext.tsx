@@ -221,7 +221,7 @@ const translations: Translations = {
         ]
       },
       {
-        company: "Infosys Chile",
+        company: "Focus On Services",
         position: "Especialista en Tecnologías de la Información",
         period: "2016 - 2022",
         description: [
@@ -395,7 +395,7 @@ const translations: Translations = {
         ]
       },
       {
-        company: "Infosys Chile",
+        company: "Focus On Services",
         position: "IT Services Specialist",
         period: "2016 - 2022",
         description: [
