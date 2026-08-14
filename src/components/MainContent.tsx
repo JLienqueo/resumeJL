@@ -37,7 +37,7 @@ export default function MainContent() {
       'Sistemas Expertos': ['APIs & DESARROLLO', 'DATOS & BUSINESS INTELLIGENCE'],
       'Bupa Chile': ['ITSM & GESTIÓN', 'PLATAFORMAS & SISTEMAS'],
       'Sky Systems': ['REDES & SEGURIDAD', 'PLATAFORMAS & SISTEMAS'],
-      'Infosys': ['PLATAFORMAS & SISTEMAS', 'REDES & SEGURIDAD'],
+      'Focus on Services': ['PLATAFORMAS & SISTEMAS', 'REDES & SEGURIDAD'],
       'Unisys': ['PLATAFORMAS & SISTEMAS', 'REDES & SEGURIDAD'],
       'Independiente': ['APIs & DESARROLLO', 'DATOS & BUSINESS INTELLIGENCE', 'CONTROL DE VERSIONES'],
       'Freelance': ['APIs & DESARROLLO', 'DATOS & BUSINESS INTELLIGENCE', 'CONTROL DE VERSIONES'],
@@ -94,7 +94,7 @@ export default function MainContent() {
       {/* ============================================ */}
       {/* CONOCIMIENTOS CLAVES */}
       {/* ============================================ */}
-      <h3 className="text-xs md:text-sm font-semibold uppercase tracking-wider text-orange-600 mb-1.5 print:text-[10px] print:mb-1 font-sans">
+      <h3 className="text-xs md:text-sm font-sans uppercase tracking-wider text-orange-600 mb-1.5 print:text-[10px] print:mb-1 font-sans">
         {language === 'es' ? 'Conocimientos Claves' : 'Key Knowledge'}
       </h3>
       <div className="border-b border-gray-100 pb-2 mb-2 print:pb-1 print:mb-1">
@@ -144,7 +144,7 @@ export default function MainContent() {
       {/* ============================================ */}
       {/* EXPERIENCIA LABORAL - CON TIMELINE */}
       {/* ============================================ */}
-      <h3 className="text-xs md:text-sm font-semibold uppercase tracking-wider text-orange-600 mb-1.5 text-center print:text-[10px] print:mb-1 font-sans">
+      <h3 className="text-xs md:text-sm font-sans uppercase tracking-wider text-orange-600 mb-1.5 text-center print:text-[10px] print:mb-1 font-sans">
         {language === 'es' ? 'Experiencia Laboral' : 'Work Experience'}
       </h3>
       <div className="border-b border-gray-100 pb-2 mb-2 print:pb-1 print:mb-1">
@@ -159,18 +159,18 @@ export default function MainContent() {
                 <div
                   key={`company-${index}`}
                   onClick={() => selectExperience('company', index)}
-                  className="flex items-start gap-2 p-1.5 rounded cursor-pointer hover:bg-blue-50 border border-transparent hover:border-gray-200 print:p-1 print:border print:border-gray-200"
+                  className="flex items-start gap-2 p-1.5 rounded cursor-pointer hover:bg-orange-50 border border-transparent hover:border-gray-200 print:p-1 print:border print:border-gray-200"
                 >
                   {/* Timeline vertical */}
                   <div className="flex flex-col items-center flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-blue-500 print:w-1.5 print:h-1.5"></div>
+                    <div className="w-2 h-2 rounded-full bg-orange-500 print:w-1.5 print:h-1.5"></div>
                     {index < companyExperience.length - 1 && (
-                      <div className="w-0.5 h-4 bg-blue-400 print:h-3"></div>
+                      <div className="w-0.5 h-4 bg-orange-400 print:h-3"></div>
                     )}
                   </div>
                   <div className="flex-1 min-w-0">
                     <div className="flex items-center gap-1 flex-wrap print:gap-0.5">
-                      <span className="text-[10px] md:text-xs font-medium text-blue-600 print:text-[9px] font-sans">{exp.period}</span>
+                      <span className="text-[10px] md:text-xs font-medium text-orange-600 print:text-[9px] font-sans">{exp.period}</span>
                       <span className="text-xs md:text-sm font-medium truncate text-gray-800 print:text-[10px] font-sans">{exp.company}</span>
                     </div>
                     <p className="text-[10px] md:text-xs text-gray-600 truncate print:text-[9px] font-sans">{exp.position}</p>
@@ -218,7 +218,7 @@ export default function MainContent() {
       {/* ============================================ */}
       {/* LOGROS - Horizontal */}
       {/* ============================================ */}
-      <h3 className="text-xs md:text-sm font-semibold uppercase tracking-wider text-orange-600 mb-1 print:text-[10px] print:mb-0.5 font-sans">
+      <h3 className="text-xs md:text-sm font-sans uppercase tracking-wider text-orange-600 mb-1 print:text-[10px] print:mb-0.5 font-sans">
         {language === 'es' ? 'Logros' : 'Achievements'}
       </h3>
       <div className="border-b border-gray-100 pb-1.5 mb-1.5 print:pb-1 print:mb-1">
@@ -244,7 +244,7 @@ export default function MainContent() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-2 print:gap-1">
         {/* IDIOMAS */}
         <div>
-          <h3 className="text-xs md:text-sm font-semibold uppercase tracking-wider text-orange-600 mb-0.5 print:text-[10px] print:mb-0.5 font-sans">
+          <h3 className="text-xs md:text-sm font-sans uppercase tracking-wider text-orange-600 mb-0.5 print:text-[10px] print:mb-0.5 font-sans">
             {language === 'es' ? 'Idiomas' : 'Languages'}
           </h3>
           <div className="flex flex-wrap gap-1.5 print:gap-1">
@@ -258,7 +258,7 @@ export default function MainContent() {
 
         {/* SOFT SKILLS */}
         <div>
-          <h3 className="text-xs md:text-sm font-semibold uppercase tracking-wider text-orange-600 mb-0.5 print:text-[10px] print:mb-0.5 font-sans">
+          <h3 className="text-xs md:text-sm font-sans uppercase tracking-wider text-orange-600 mb-0.5 print:text-[10px] print:mb-0.5 font-sans">
             {language === 'es' ? 'Habilidades' : 'Skills'}
           </h3>
           <div className="flex flex-wrap gap-1 print:gap-0.5">
@@ -300,7 +300,7 @@ export default function MainContent() {
                 <div className={`card w-full max-w-md shadow-xl border text-white ${
                   isFreelance 
                     ? 'bg-gradient-to-br from-orange-600 to-orange-800 border-orange-300' 
-                    : 'bg-gradient-to-br from-blue-600 to-blue-800 border-blue-400'
+                    : 'bg-gradient-to-br from-orange-600 to-orange-800 border-orange-400'
                 }`}>
                   <div className="card-body p-5 print:p-3">
                     <div className="flex justify-between items-start mb-2">
@@ -310,7 +310,7 @@ export default function MainContent() {
                         </div>
                         <h3 className="text-base md:text-lg font-bold mt-1.5 text-white font-sans">{exp.company}</h3>
                         <p className={`text-xs md:text-sm font-medium font-sans ${
-                          isFreelance ? 'text-orange-200' : 'text-blue-200'
+                          isFreelance ? 'text-orange-200' : 'text-orange-200'
                         }`}>
                           {exp.position}
                         </p>
@@ -321,7 +321,7 @@ export default function MainContent() {
 
                     <div className="space-y-1">
                       <h4 className={`text-[9px] md:text-[10px] font-medium uppercase tracking-wider font-sans ${
-                        isFreelance ? 'text-orange-200' : 'text-blue-200'
+                        isFreelance ? 'text-orange-200' : 'text-orange-200'
                       }`}>
                         {language === 'es' ? 'Responsabilidades' : 'Responsibilities'}
                       </h4>
@@ -329,7 +329,7 @@ export default function MainContent() {
                         {exp.description.map((desc, idx) => (
                           <li key={idx} className="flex items-start gap-1.5 text-[10px] md:text-xs leading-relaxed text-white/95 font-sans">
                             <span className={`text-xs leading-none ${
-                              isFreelance ? 'text-orange-300' : 'text-blue-400'
+                              isFreelance ? 'text-orange-300' : 'text-orange-400'
                             }`}>•</span>
                             <span>{desc}</span>
                           </li>
